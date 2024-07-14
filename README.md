@@ -1,10 +1,10 @@
 # while/until loops for Racket
 
-JavaCommons Technologies
+by JavaCommons Technologies
 <[javacommons@gmail.com](mailto:javacommons@gmail.com)>
 
- (require while-until) package:                                                      
-                      [while-until](https://pkgs.racket-lang.org/package/while-until)
+ (require while-until)
+  package: [while-until](https://pkgs.racket-lang.org/package/while-until)
 
 This basically provides `while`, `until`, `break` and `continue`.
 
