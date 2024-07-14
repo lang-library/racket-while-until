@@ -47,6 +47,8 @@ This basically provides @racket[while], @racket[until], @racket[break] and
   )
 }|
 
+@section{Reference}
+
 @defform[(while test body ...)]{
 Repeat the evaluation of the @racket[body] so long as @racket[test]
 is true.
