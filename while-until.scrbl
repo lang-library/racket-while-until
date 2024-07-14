@@ -1,8 +1,8 @@
 #lang scribble/manual
-@(require (for-label "main.rkt"
-                     racket/base))
 
 @title{while/until loops for Racket}
+
+@author[(author+email "JavaCommons Technologies" "javacommons@gmail.com")]
 
 This basically provides @racket[while], @racket[until], @racket[break] and
 @racket[continue].
@@ -28,7 +28,7 @@ This basically provides @racket[while], @racket[until], @racket[break] and
 }|
 
 @codeblock|{
-#lang racket
+#lang racket/base
 (require while-until)
 (require pprint-all)
 
