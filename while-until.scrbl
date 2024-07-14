@@ -29,7 +29,7 @@ This basically provides @racket[while], @racket[until], @racket[break] and
 
 @codeblock|{
 #lang racket
-(require "./main.rkt")
+(require while-until)
 (require pprint-all)
 
 (define n 5)
