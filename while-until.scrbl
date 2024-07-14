@@ -4,11 +4,14 @@
 
 @author[(author+email "JavaCommons Technologies" "javacommons@gmail.com")]
 
+@defmodule[while-until]
+
 This basically provides @racket[while], @racket[until], @racket[break] and
 @racket[continue].
 
+@table-of-contents[]
+
 @section{Example and usage}
-@defmodule[while-until]
 
 @codeblock|{
 #lang racket/base
