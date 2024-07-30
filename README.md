@@ -34,7 +34,7 @@ This basically provides `while`, `until`, `break` and `continue`.
 ```racket
 #lang racket/base    
 (require while-until)
-(require pprint-all) 
+(require output) 
                      
 (define n 5)         
 (while (> n 0)       

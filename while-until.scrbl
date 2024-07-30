@@ -33,7 +33,7 @@ This basically provides @racket[while], @racket[until], @racket[break] and
 @codeblock|{
 #lang racket/base
 (require while-until)
-(require pprint-all)
+(require output)
 
 (define n 5)
 (while (> n 0)

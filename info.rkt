@@ -12,7 +12,7 @@
   '("While/Until loops for Racket."))
 (define deps '("base"
                "compatibility-lib"
-               "pprint-all"
+               "output"
                "while-loop"
                ))
 (define build-deps '("racket-doc"
